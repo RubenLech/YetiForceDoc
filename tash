@@ -1,0 +1,68 @@
+[1mdiff --git a/package.json b/package.json[m
+[1mindex 56da35e..2eba8de 100644[m
+[1m--- a/package.json[m
+[1m+++ b/package.json[m
+[36m@@ -20,7 +20,7 @@[m
+ 		"@docusaurus/plugin-content-docs": "2.4.3",[m
+ 		"@docusaurus/plugin-pwa": "2.4.3",[m
+ 		"@docusaurus/preset-classic": "2.4.3",[m
+[31m-		"@easyops-cn/docusaurus-search-local": "*",[m
+[32m+[m		[32m"@easyops-cn/docusaurus-search-local": "^0.40.1",[m
+ 		"@mdx-js/react": "^1.6",[m
+ 		"@saucelabs/theme-github-codeblock": "^0",[m
+ 		"clsx": "^1.2",[m
+[1mdiff --git a/yarn.lock b/yarn.lock[m
+[1mindex d67ff31..4da2288 100644[m
+[1m--- a/yarn.lock[m
+[1m+++ b/yarn.lock[m
+[36m@@ -4,7 +4,7 @@[m
+ [m
+ "@algolia/autocomplete-core@1.9.3":[m
+   version "1.9.3"[m
+[31m-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-core/-/autocomplete-core-1.9.3.tgz#1d56482a768c33aae0868c8533049e02e8961be7"[m
+[32m+[m[32m  resolved "https://registry.npmjs.org/@algolia/autocomplete-core/-/autocomplete-core-1.9.3.tgz"[m
+   integrity sha512-009HdfugtGCdC4JdXUbVJClA0q0zh24yyePn+KUGk3rP7j8FEe/m5Yo/z65gn6nP/cM39PxpzqKrL7A6fP6PPw==[m
+   dependencies:[m
+     "@algolia/autocomplete-plugin-algolia-insights" "1.9.3"[m
+[36m@@ -12,45 +12,45 @@[m
+ [m
+ "@algolia/autocomplete-plugin-algolia-insights@1.9.3":[m
+   version "1.9.3"[m
+[31m-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-plugin-algolia-insights/-/autocomplete-plugin-algolia-insights-1.9.3.tgz#9b7f8641052c8ead6d66c1623d444cbe19dde587"[m
+[32m+[m[32m  resolved "https://registry.npmjs.org/@algolia/autocomplete-plugin-algolia-insights/-/autocomplete-plugin-algolia-insights-1.9.3.tgz"[m
+   integrity sha512-a/yTUkcO/Vyy+JffmAnTWbr4/90cLzw+CC3bRbhnULr/EM0fGNvM13oQQ14f2moLMcVDyAx/leczLlAOovhSZg==[m
+   dependencies:[m
+     "@algolia/autocomplete-shared" "1.9.3"[m
+ [m
+ "@algolia/autocomplete-preset-algolia@1.9.3":[m
+   version "1.9.3"[m
+[31m-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-preset-algolia/-/autocomplete-preset-algolia-1.9.3.tgz#64cca4a4304cfcad2cf730e83067e0c1b2f485da"[m
+[32m+[m[32m  resolved "https://registry.npmjs.org/@algolia/autocomplete-preset-algolia/-/autocomplete-preset-algolia-1.9.3.tgz"[m
+   integrity sha512-d4qlt6YmrLMYy95n5TB52wtNDr6EgAIPH81dvvvW8UmuWRgxEtY0NJiPwl/h95JtG2vmRM804M0DSwMCNZlzRA==[m
+   dependencies:[m
+     "@algolia/autocomplete-shared" "1.9.3"[m
+ [m
+ "@algolia/autocomplete-shared@1.9.3":[m
+   version "1.9.3"[m
+[31m-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-shared/-/autocomplete-shared-1.9.3.tgz#2e22e830d36f0a9cf2c0ccd3c7f6d59435b77dfa"[m
+[32m+[m[32m  resolved "https://registry.npmjs.org/@algolia/autocomplete-shared/-/autocomplete-shared-1.9.3.tgz"[m
+   integrity sha512-Wnm9E4Ye6Rl6sTTqjoymD+l8DjSTHsHboVRYrKgEt8Q7UHm9nYbqhN/i0fhUYA3OAEH7WA8x3jfpnmJm3rKvaQ==[m
+ [m
+ "@algolia/cache-browser-local-storage@4.23.3":[m
+   version "4.23.3"[m
+[31m-  resolved "https://registry.yarnpkg.com/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.23.3.tgz#0cc26b96085e1115dac5fcb9d826651ba57faabc"[m
+[32m+[m[32m  resolved "https://registry.npmjs.org/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.23.3.tgz"[m
+   integrity sha512-vRHXYCpPlTDE7i6UOy2xE03zHF2C8MEFjPN2v7fRbqVpcOvAUQK81x3Kc21xyb5aSIpYCjWCZbYZuz8Glyzyyg==[m
+   dependencies:[m
+     "@algolia/cache-common" "4.23.3"[m
+ [m
+ "@algolia/cache-common@4.23.3":[m
+   version "4.23.3"[m
+[31m-  resolved "https://registry.yarnpkg.com/@algolia/cache-common/-/cache-common-4.23.3.tgz#3bec79092d512a96c9bfbdeec7cff4ad36367166"[m
+[32m+[m[32m  resolved "https://registry.npmjs.org/@algolia/cache-common/-/cache-common-4.23.3.tgz"[m
+   integrity sha512-h9XcNI6lxYStaw32pHpB1TMm0RuxphF+Ik4o7tcQiodEdpKK+wKufY6QXtba7t3k8eseirEMVB83uFFF3Nu54A==[m
+ [m
+ "@algolia/cache-in-memory@4.23.3":[m
+   version "4.23.3"[m
+[31m-  resolved "https://registry.yarnpkg.com/@algolia/cache-in-memory/-/cache-in-memory-4.23.3.tgz#3945f87cd21ffa2bec23890c85305b6b11192423"[m
+[32m+[m[32m  resolved "https://registry.npmjs.org/@algolia/
